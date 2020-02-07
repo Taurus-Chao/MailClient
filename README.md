@@ -5,7 +5,7 @@
 利用SMTP和POP3协议实现邮件的收发功能。需要提供服务器的授权码。
 
 ## 界面截图
-![avatar](./界面1.jpg)
+![avatar](./界面1.png)
 
 ## 接受邮件截图
-![avatar](./read.jpg)
+![avatar](./read.png)
