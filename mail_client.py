@@ -161,7 +161,7 @@ def print_info(msg, indent=0,resstr=''):
             resstr=resstr+'\n'+'%spart %s' % ('  ' * indent, n)
             #print('%s--------------------' % ('  ' * indent))
             resstr=resstr+'\n'+'%s--------------------' % ('  ' * indent)
-            print_info(part, indent + 1,resstr)
+            resstr=resstr+'\n'+print_info(part, indent + 1)
     else:
         content_type = msg.get_content_type()
         if content_type=='text/plain' or content_type=='text/html':
